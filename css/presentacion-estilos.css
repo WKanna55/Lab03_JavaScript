@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    color: #ccc;
+}
+
+.pagina{
+    background-color: #16153d;
+}
+
+.contenedor{
+    margin: auto;
+    margin-top: 25px;
+    width: 80%;
+
+    /*height: 60%;*/
+    /*background-color: lightgoldenrodyellow;*/
+    
+}
+
+.contenedor-simple{
+    overflow: auto;
+    width: 100%;
+    /*height: 60%;*/
+    
+    /*background-color: lightgreen;*/
+}
+
+.contenedor-simple-center{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.contenedor-simple.prueba{
+    /*background-color: lightseagreen;*/
+    padding: 1em 0em 1em 0em;
+}
+
+.contenedor-imagen{
+    float: left;
+    text-align: center;
+    width: 260px;
+    height: 270px;
+    background-color: rgb(84, 84, 100);
+    border-radius: 10px;
+    padding: 1em 1em 1em 1em;
+}
+
+.contenedor-texto{
+    float: right;
+    margin-left: 10px;
+    width: 60%;
+    
+    background-color: rgb(77, 70, 167);
+    border-radius: 20px;
+    padding: 2em 2em 2em 2em;
+    overflow: auto;
+}
+
+.contenedor-audio{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+h3{font-size: 27px; color: aliceblue;}
+h4{font-size: 27px; color: aliceblue;}
+p{font-size: 20px;}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-th{
+    background-color: #2f2e72;
+    text-align: center;
+    border: 4px solid #ccc;
+    padding: 10px;
+}
+
+.tabla-td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+.tabla-td.center{
+    text-align: center;
+}
+
