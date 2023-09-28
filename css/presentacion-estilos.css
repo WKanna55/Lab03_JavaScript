@@ -9,10 +9,21 @@
     background-color: #16153d;
 }
 
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 .contenedor{
     margin: auto;
     margin-top: 25px;
     width: 80%;
+    
 
     /*height: 60%;*/
     /*background-color: lightgoldenrodyellow;*/
@@ -41,8 +52,9 @@
 }
 
 .contenedor-imagen{
-    float: left;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
     width: 260px;
     height: 270px;
     background-color: rgb(84, 84, 100);
@@ -92,3 +104,25 @@ p{font-size: 20px;}
     text-align: center;
 }
 
+
+
+
+
+header {
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #060546a8;
+    color: #0a005c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
